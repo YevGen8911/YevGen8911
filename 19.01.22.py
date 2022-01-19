@@ -28,3 +28,8 @@ time=hours-days*24
 minutes=n%60
 print(time)
 print(minutes)
+
+#6th practice (hello, Harry!)
+print('Type your name here: ')
+name=input()
+print('Hello, '+name+'!')
