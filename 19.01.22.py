@@ -19,3 +19,12 @@ n=int(input())
 k=int(input())
 print(k//n)
 print(k%n)
+
+#5th practice (electronic watch)
+n=int(input())
+hours=n//60
+days=hours//24
+time=hours-days*24
+minutes=n%60
+print(time)
+print(minutes)
