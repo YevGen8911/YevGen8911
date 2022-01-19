@@ -8,3 +8,8 @@ a=int(input())
 b=int(input())
 c=int(input())
 print(a+b+c)
+
+#3rd practice (rectangle area)
+b=int(input())
+h=int(input())
+print(b*h/2)
