@@ -40,3 +40,12 @@ follow=int(num+1)
 prev=int(num-1)
 print('The next number for the number '+str(num)+' is '+str(follow)+'.')
 print('The previous number for the number '+str(num)+' is '+str(prev)+'.')
+
+#8th practice (desks for students)
+a=int(input())
+b=int(input())
+c=int(input())
+desk_a=a//2+a%2
+desk_b=b//2+b%2
+desk_c=c//2+c%2
+print(desk_a+desk_b+desk_c)
