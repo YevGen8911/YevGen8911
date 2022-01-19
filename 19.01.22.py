@@ -49,3 +49,10 @@ desk_a=a//2+a%2
 desk_b=b//2+b%2
 desk_c=c//2+c%2
 print(desk_a+desk_b+desk_c)
+
+#9th practice (lace length)
+a=int(input())
+b=int(input())
+l=int(input())
+N=int(input())
+print(a*(2*N-1)+2*l+b*(2*N-2))
