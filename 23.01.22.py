@@ -37,5 +37,14 @@ c=int(input())
 
 print(min(a, b, c))
 
-#6th ex
-
+#6th ex (equal numbers)
+a=int(input())
+b=int(input())
+c=int(input())
+if a==b==c:
+    print(3)
+elif a==b or a==c or b==c:
+    print(2)
+else:
+    print(0)
+#7th ex (
