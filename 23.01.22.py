@@ -47,4 +47,13 @@ elif a==b or a==c or b==c:
     print(2)
 else:
     print(0)
-#7th ex (
+    
+#7th ex (chess  elephant)
+x1=int(input())
+x2=int(input())
+y1=int(input())
+y2=int(input())
+if abs(x1-y1)==abs(x2-y2) or abs(y1-x1)==abs(y2-x2):
+    print('Yes')
+else:
+    print('No')
