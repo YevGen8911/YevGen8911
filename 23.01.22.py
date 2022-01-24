@@ -57,3 +57,37 @@ if abs(x1-y1)==abs(x2-y2) or abs(y1-x1)==abs(y2-x2):
     print('Yes')
 else:
     print('No')
+
+#8th ex (chess queen)
+x1=int(input())
+x2=int(input())
+y1=int(input())
+y2=int(input())
+if abs(x1-y1)==abs(x2-y2) or x1==y1 or x2==y2:
+    print('YES')
+else:
+    print('NO')
+
+#8th ex (chess knight)
+x1=int(input())
+x2=int(input())
+y1=int(input())
+y2=int(input())
+if x1+1==y1 and x2+2==y2:
+    print('Yes')
+elif x1-1==y1 and x2-2==y2:
+    print('Yes')
+elif x1+2==y1 and x2+1==y2:
+    print('Yes')
+elif x1-2==y1 and x2-1==y2:
+    print('Yes')
+elif x1+2==y1 and x2-1==y2:
+    print('Yes')
+elif x1+1==y1 and x2-2==y2:
+    print('Yes')
+elif x1-1==y1 and x2+2==y2:
+    print('Yes')
+elif x1-2==y1 and x2+1==y2:
+    print('Yes')
+else:
+    print('No')
