@@ -45,3 +45,13 @@ H=int(q_sec//3600)
 M=int((q_sec%3600)//60)
 S=int((q_sec%3600)%60)
 print(H, M, S)
+
+#bankIncom
+P=int(input())
+X=int(input())
+Y=int(input())
+coins=X*100+Y
+profit=coins+coins*P/100
+Xnew=int(profit//100)
+Ynew=int(profit%100)
+print(Xnew, Ynew)
