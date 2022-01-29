@@ -21,3 +21,10 @@ b=int(input())
 import math
 x=math.ceil((h-a)/(a-b))+1
 print(x)
+
+#hourArrowAngle
+H=int(input())
+M=int(input())
+S=int(input())
+sec=360/(60*12*60)
+print((H*3600+M*60+S)*sec)
