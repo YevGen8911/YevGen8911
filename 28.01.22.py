@@ -36,3 +36,12 @@ q_sec=a/sec
 hours=q_sec%3600
 angle=360*hours/3600
 print(angle)
+
+#whatTimeIs
+a=float(input())
+sec=360/(60*12*60)
+q_sec=a/sec
+H=int(q_sec//3600)
+M=int((q_sec%3600)//60)
+S=int((q_sec%3600)%60)
+print(H, M, S)
