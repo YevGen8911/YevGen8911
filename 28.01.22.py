@@ -28,3 +28,11 @@ M=int(input())
 S=int(input())
 sec=360/(60*12*60)
 print((H*3600+M*60+S)*sec)
+
+#minutesArrowAngle
+a=float(input())
+sec=360/(60*12*60)
+q_sec=a/sec
+hours=q_sec%3600
+angle=360*hours/3600
+print(angle)
