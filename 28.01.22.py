@@ -55,3 +55,10 @@ profit=coins+coins*P/100
 Xnew=int(profit//100)
 Ynew=int(profit%100)
 print(Xnew, Ynew)
+
+#ladder
+n=int(input())
+for i in range(1, n+1):
+    for j in range(1,i+1):
+        print(j, sep=" ", end=" ")
+    print()
