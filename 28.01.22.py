@@ -68,11 +68,14 @@ x=int(input())
 s=0
 sum_x=0
 sum_x_sq=0
-n=1
+n=0
 otkl=0
 while x!=0:
     sum_x+=x
     sum_x_sq+=x**2
     x=int(input())
     n+=1
-print(sqrt((sum_x_sq-sum_x**2/n)/(n-1)))
+result=(sum_x_sq-(sum_x**2/n))/(n-1)
+print(sum_x_sq)
+print(sum_x**2/n)
+print(sqrt(result))
