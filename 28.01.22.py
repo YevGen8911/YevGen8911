@@ -62,3 +62,17 @@ for i in range(1, n+1):
     for j in range(1,i+1):
         print(j, sep=" ", end=" ")
     print()
+#standartnoe otklonenie
+from math import sqrt
+x=int(input())
+s=0
+sum_x=0
+sum_x_sq=0
+n=1
+otkl=0
+while x!=0:
+    sum_x+=x
+    sum_x_sq+=x**2
+    x=int(input())
+    n+=1
+print(sqrt((sum_x_sq-sum_x**2/n)/(n-1)))
